@@ -1,25 +1,69 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
     <style>
-        .manrope{
+        .manrope {
             font-family: "Manrope", sans-serif;
         }
     </style>
     <title>Assignment 3</title>
 </head>
+
 <body class="manrope">
 
-    <header>
-        
+    <header class="container mx-auto">
+        <!-- Navbar Code Starts here -->
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+                <div class="flex items-center justify-center">
+                    <div class="bg-[#ABEF5F] rounded-full px-2 py-1">
+                        <p><i class="fa-solid fa-arrow-right -rotate-45"></i></p>
+                    </div>
+                    <a class="btn btn-ghost text-4xl font-[800]">Rinterio</a>
+                </div>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1 mt-2">
+                        <li><a class="font-[800] text-[#494949] text-xl">Home</a></li>
+                        <li><a class="font-[400] text-[#737373] text-xl">Services</a></li>
+                        <li><a class="font-[400] text-[#737373] text-xl">Portfolio</a></li>
+                        <li><a class="font-[400] text-[#737373] text-xl">Blogs</a></li>
+                        <li><a class="font-[400] text-[#737373] text-xl">Contact Us</a></li> 
+                </ul>
+            </div>
+            <div class="navbar-end">
+                    <div class="flex items-center justify-center gap-2">
+                            <div>
+                                <p> <i class="fa-solid fa-search bg-[#E9E9E9] rounded-full shadow px-3 py-2 text-black hidden lg:block"></i></p>
+                            </div>
+                            <div>
+                                <p> <i class="fa-solid fa-cart-shopping bg-[#E9E9E9] rounded-full shadow px-3 py-2 text-black hidden lg:block "></i></p>
+                            </div>
+                        
+                           <div>
+                            <button class="btn bg-[#ABEF5F] rounded-full hidden lg:block font-[800] text-xl" >Book Consult <i class="bg-[#1C1C1C] rounded-full fa-solid fa-arrow-right -rotate-45 text-white"></i></button>
+                           </div>
+                           <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <div class="bg-[#E9E9E9] rounded-full shadow px-3 py-2">
+                               <p> <i class="fa-solid fa-bars"></i></p>
+                              </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <!-- Navbar Code ends here -->
+
     </header>
 
     <main>
@@ -29,6 +73,7 @@
     <footer>
 
     </footer>
-    
+
 </body>
+
 </html>
